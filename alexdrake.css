@@ -221,9 +221,6 @@ h5 {
     letter-spacing: 7px;
 }
 
-
-
-
 h4 {
     color: white;
     margin-left: 30%;
@@ -234,6 +231,18 @@ h4 {
     width: 40%;
     margin-left: 45.5%;
     margin-top: -2%;
+}
+
+span.redacted {
+    font-family: Redacted Script;
+    font-size: 2rem;
+}
+
+span.redacted:hover {
+    font-family: Redacted Script;
+    font-size: 2rem;
+    color: #980002;
+    transition: 1s;
 }
 
 h6 {

@@ -221,9 +221,6 @@ h5 {
     letter-spacing: 7px;
 }
 
-
-
-
 h4 {
     color: white;
     margin-left: 30%;
@@ -340,13 +337,13 @@ span.characterspan {
 }
 
 .leaderdaddydiv, .seawitchdiv, .shadowweirdodiv, .papercutdiv, .forestgirldiv {
-    width: 60%;
+    width: 80%;
     height: 100%;
     border: solid 2px white;
     justify-content: center;
     margin: 0 auto;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: center;
     margin-bottom: 5%;
 
@@ -447,7 +444,7 @@ a.shinzoslink {
     text-align: center;
     margin-top: 2%;
     font-family: Cinzel Decorative, sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 h12 {
@@ -478,7 +475,7 @@ a.hollyslink {
     text-align: center;
     margin-top: 2%;
     font-family: Unica One, sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: -1px;
 }
 
@@ -510,5 +507,5 @@ a.baelslink {
     text-align: center;
     margin-top: 2%;
     font-family: Staatliches, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }

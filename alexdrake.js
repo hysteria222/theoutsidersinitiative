@@ -20,6 +20,7 @@ const navLink4 = document.createElement('a');
 document.querySelector('nav').appendChild(navLink1);
 navLink1.innerHTML = 'HOME';
 navLink1.classList.add('navlinks');
+navLink1.href = 'index.html'
 //nav2
 document.querySelector('nav').appendChild(navLink2);
 navLink2.innerHTML = 'HERE';
@@ -58,7 +59,7 @@ document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Inside The Mind Of'
 const headingTwo = document.createElement('h4');
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.innerHTML = 'alex "<span class="redacted">declined to answer "</span> drake?'
+headingTwo.innerHTML = 'Alex <span class="redacted">bigbody</span> Drake?'
 headingTwo.setAttribute('class', 'redacted');
 
 const bodyTextDiv = document.createElement('div');

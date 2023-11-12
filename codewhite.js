@@ -101,6 +101,7 @@ const characterInfoText = document.createElement('p');
 characterInfoText.classList.add('characterinfotext');
 characterInfoDiv.appendChild(characterInfoText);
 characterInfoText.innerHTML = 'On the subject of The Outsiders, we have many questions, the main ones being, who are these people, and what makes them tick? Well, we\'ve gathered a bit of information on each one of them just for you! Now, I\'ll warn you, some of them were <span class="characterspan"> a lot </span>more forthcoming than others, but I did my best to bring you the inside scoop on each of them, at least... what I could get.';
+const wrapperDiv = document.createElement('div')
 
 
 //alex 
@@ -151,7 +152,7 @@ seaWitchTitle.textContent = 'Shinzo Katetsu';
 const seaWitchText = document.createElement('p');
 seaWitchText.classList.add('shinzokatetsu');
 seaWitchTitle.appendChild(seaWitchText);
-seaWitchText.innerHTML = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+seaWitchText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis.';
 const seaWitchLink = document.createElement('a');
 seaWitchLink.classList.add('shinzoslink');
 seaWitchLink.textContent = 'Read more about Shinzo Katetsu';
@@ -169,7 +170,7 @@ shadowWeirdoTitle.textContent = 'Hollyanna Knox';
 const shadowWeirdoText = document.createElement('p');
 shadowWeirdoText.classList.add('hollyannaknox');
 shadowWeirdoTitle.appendChild(shadowWeirdoText);
-shadowWeirdoText.innerHTML = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaa AAA A A A A AAAAAAAAAAAA A  AAAAAAAAAA AAAAAAAAAAAA'
+shadowWeirdoText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis.'
 const shadowWeirdoLink = document.createElement('a');
 shadowWeirdoLink.classList.add('hollyslink');
 shadowWeirdoText.appendChild(shadowWeirdoLink);
@@ -188,7 +189,7 @@ const papercutText = document.createElement('p');
 papercutText.classList.add('baelvolet');
 papercutTitle.appendChild(papercutText);
 papercutTitle.appendChild(papercutText);
-papercutText.innerHTML = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaa AAA A A A A AAAAAAAAAAAA A  AAAAAAAAAA AAAAAAAAAAAA'
+papercutText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis.'
 const papercutLink = document.createElement('a');
 papercutLink.classList.add('baelslink');
 papercutText.appendChild(papercutLink);
