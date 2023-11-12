@@ -112,7 +112,7 @@ const alexDrakeLink = document.createElement('a');
 alexDrakeLink.classList.add('alexslink');
 alexDrakeLink.textContent = 'Read more about Alex Drake';
 leaderDaddyText.appendChild(alexDrakeLink);
-alexDrakeLink.href = './alexdrake.html';
+alexDrakeLink.href = '/alexdrake\alexdrake.html';
 
 //fainne 
 
