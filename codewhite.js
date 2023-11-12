@@ -1,13 +1,17 @@
 //header
+const headerDiv = document.createElement('div')
+headerDiv.classList.add('headerdiv')
+document.querySelector('header').appendChild(headerDiv)
 const title = document.createElement('h1');
-document.querySelector('header').append(title);
+title.classList.add('title')
+headerDiv.appendChild(title);
 title.textContent = 'The Outsiders';
 const secondTitle = document.createElement('h2');
-title.insertAdjacentElement('beforeend', secondTitle);
+title.appendChild(secondTitle);
 secondTitle.classList.add('outsiders-subtitle');
 secondTitle.innerHTML = 'Ebixia\'s most wanted <span>heroes</span>.';
 const nav = document.createElement('nav');
-document.querySelector('header').appendChild(nav);
+headerDiv.appendChild(nav);
 const navLink1 = document.createElement('a');
 const navLink2 = document.createElement('a');
 const navLink3 = document.createElement('a');
@@ -54,8 +58,9 @@ const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Inside The Outsiders';
 const headingTwo = document.createElement('h4');
+headingTwo.classList.add('headingtwo')
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.textContent = 'who, what, and why?';
+headingTwo.innerHTML = 'who, what, and <span class="headingspan">why?</span>';
 
 
 const bodyTextDiv = document.createElement('div');
@@ -70,8 +75,9 @@ const headingThree = document.createElement('h5');
 document.querySelector('.mainbody').appendChild(headingThree);
 headingThree.textContent = 'The Outsider Agenda';
 const headingFour = document.createElement('h6');
+headingFour.classList.add('headingfour')
 document.querySelector('.mainbody').appendChild(headingFour);
-headingFour.textContent = 'what are they planning?';
+headingFour.innerHTML = 'what are they <span class="headingspan">planning?</span>';
 const bodyText2Div = document.createElement('div');
 bodyText2Div.classList.add('bodytextDiv2');
 document.querySelector('.mainbody').appendChild(bodyText2Div);
@@ -84,7 +90,8 @@ bodytext2.textContent = 'Reports on their mission statement varies. Many report 
 const characterInfoHeading = document.createElement('h7');
 characterInfoHeading.textContent = 'Meet the Outsiders';
 const characterInfoHeadingSubtitle = document.createElement('h8');
-characterInfoHeadingSubtitle.textContent = 'who, maybe not where, or why, definitely not why';
+characterInfoHeadingSubtitle.classList.add('characterinfosubtitle')
+characterInfoHeadingSubtitle.innerHTML = 'who, maybe not where, or why...<span class="headingspan"> definitely not why</span>.';
 document.querySelector('.characterinfo').appendChild(characterInfoHeading);
 document.querySelector('.characterinfo').appendChild(characterInfoHeadingSubtitle);
 const characterInfoDiv = document.createElement('div');
@@ -112,7 +119,7 @@ const alexDrakeLink = document.createElement('a');
 alexDrakeLink.classList.add('alexslink');
 alexDrakeLink.textContent = 'Read more about Alex Drake';
 leaderDaddyText.appendChild(alexDrakeLink);
-alexDrakeLink.href = '/alexdrake\alexdrake.html';
+alexDrakeLink.href = 'alexdrake.html';
 
 //fainne 
 

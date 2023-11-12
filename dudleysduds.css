@@ -55,13 +55,22 @@ body {
 
 header {
     width: 100%; 
-    height: 60%; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    opacity: 95%;
+}
+
+.headerdiv {
+    width: 100%; 
+    height: 35vh; 
     background-color: black;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    padding-bottom: 2%;
     opacity: 95%;
+    margin-top: -3%;
+    margin-bottom: 1%;
 }
 
 h1 {
@@ -70,8 +79,7 @@ h1 {
     font-family: Bebas Neue, sans-serif;
     text-align: center;
     padding-top: 3%;
-    margin-bottom: 1%;
-
+    margin-top: 1%;
 }
 
 h2 {
@@ -188,7 +196,7 @@ img.outsidersimg, img.hoverimg {
     padding-bottom: 5%;
 }
 
-h3, h5 {
+h3{
     width: 100%;
     color: white;
     font-size: 3.5rem;
@@ -198,10 +206,25 @@ h3, h5 {
     display: flex;
     justify-content: center;
     margin-top: -5%;
+    letter-spacing: 7px;
+}
+
+h5 {
+    width: 100%;
+    color: white;
+    font-size: 3.5rem;
+    padding: 1%;
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 7px;
 }
 
 
-h4, h6 {
+
+
+h4 {
     color: white;
     margin-left: 30%;
     font-size: 2.5rem;
@@ -209,12 +232,30 @@ h4, h6 {
     color: #62AB37;
     height: 10%;
     width: 40%;
-    margin-left: 60%;
+    margin-left: 67.5%;
     margin-top: -2%;
 }
 
-h4.span:hover > hover {
-   color: #980002;
+h6 {
+    color: white;
+    margin-left: 30%;
+    font-size: 2.5rem;
+    font-family: Kristi;
+    color: #62AB37;
+    height: 10%;
+    width: 40%;
+    margin-left: 63%;
+    margin-top: -2%;
+}
+
+h4.headingtwo:hover > span {
+    color:#980002;
+    transition: 1s;
+}
+
+h6.headingfour:hover > span {
+    color:#980002;
+    transition: 1s;
 }
 
 p.bodytext, p.bodytext2 {
@@ -246,7 +287,6 @@ p.bodytext, p.bodytext2 {
     padding-top: 2%;
 }
 
-
 h7 {
     width: 100%;
     color: white;
@@ -270,10 +310,19 @@ h8 {
     margin-left: 45%;
 }
 
+span.headingspan {
+    white-space: pre;
+}
+
+h8.characterinfosubtitle:hover > span {
+    color:#980002;
+    transition: 1s;
+}
+
 .characterinfodiv {
     width: 75%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 .characterinfotext {
@@ -299,6 +348,7 @@ span.characterspan {
     flex-flow: column;
     justify-content: center;
     margin-bottom: 5%;
+
 }
 
 
@@ -369,7 +419,7 @@ a.fainneslink {
 }
 
 h11 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-family: Cinzel Decorative, sans-serif;
     color: #A9DEF9;
     padding-top: 2%;
