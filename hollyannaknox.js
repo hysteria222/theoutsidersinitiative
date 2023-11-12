@@ -57,11 +57,11 @@ hoverImgDiv.appendChild(hoverImg)
 hoverImg.src = 'https://iili.io/JCfaZCu.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
-headingOne.textContent = 'Shinzo Katetsu';
+headingOne.textContent = 'Hollyanna Knox';
 const headingTwo = document.createElement('h4');
 headingTwo.classList.add('headingtwo')
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.innerHTML = 'hey gozerh, <span class="headingspan">it\'s me... again.</span>';
+headingTwo.innerHTML = 'duchess <span class="headingspan">among other things</span>';
 
 
 const bodyTextDiv = document.createElement('div');
