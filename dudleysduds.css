@@ -50,7 +50,6 @@ table {
 body {
     background-image: url('https://cdn.pixabay.com/photo/2020/12/11/13/50/roses-5822915_1280.jpg');
     background-size: 55%;
-    
 }
 
 header {
@@ -296,7 +295,6 @@ h7 {
     letter-spacing: 7px;
 }
 
-
 h8 {
     color: white;
     margin-left: 30%;
@@ -346,9 +344,7 @@ span.characterspan {
     flex-flow: column wrap;
     justify-content: center;
     margin-bottom: 5%;
-
 }
-
 
 h9 {
     font-size: 3rem;
@@ -388,7 +384,7 @@ a.alexslink {
 h10 {
     font-size: 3.5rem;
     font-family: Caveat, sans-serif;
-    color: #FF5733;
+    color: #A71515;
     padding-top: 2%;
     text-align: center;
 }
@@ -408,7 +404,7 @@ p.fainneuron {
 a.fainneslink {
     display: block;
     margin: 0 auto;
-    color: #FF5733; 
+    color: #A71515; 
     text-decoration: none;
     text-align: center;
     margin-top: 2%;

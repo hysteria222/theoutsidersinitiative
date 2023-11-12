@@ -139,7 +139,7 @@ const fainneUronLink = document.createElement('a');
 fainneUronLink.classList.add('fainneslink');
 fainneUronLink.textContent = 'Read more about Fainne Uron';
 weirdForestGirlText.appendChild(fainneUronLink);
-fainneUronLink.href = './fainneuron.html';
+fainneUronLink.href = 'fainneuron.html';
 
 //shinzo 
 const seaWitch = document.createElement('div');
@@ -157,7 +157,7 @@ const seaWitchLink = document.createElement('a');
 seaWitchLink.classList.add('shinzoslink');
 seaWitchLink.textContent = 'Read more about Shinzo Katetsu';
 seaWitchText.appendChild(seaWitchLink);
-seaWitchLink.href = './shinzokatetsu.html';
+seaWitchLink.href = 'shinzo.html';
 
 //holly 
 const shadowWeirdo = document.createElement('div');
