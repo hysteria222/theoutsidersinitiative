@@ -195,3 +195,21 @@ papercutLink.classList.add('baelslink');
 papercutText.appendChild(papercutLink);
 papercutLink.textContent = 'Read more about Bael Volet';
 papercutLink.href = './baelvolet.html';
+
+//isa
+const bigiron = document.createElement('div');
+bigiron.classList.add('bigirondiv');
+document.querySelector('.characterinfo').appendChild(bigiron);
+const bigironTitle = document.createElement('h14');
+bigironTitle.classList.add('bigiron');
+bigiron.appendChild(bigironTitle);
+bigironTitle.textContent = 'Isa Tenju';
+const bigironText = document.createElement('p');
+bigironText.classList.add('isatenju');
+bigironTitle.appendChild(bigironText);
+bigironText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis.'
+const bigironLink = document.createElement('a');
+bigironLink.classList.add('isaslink');
+bigironText.appendChild(bigironLink);
+bigironLink.textContent = 'Read more about Isa Tenju';
+bigiron.href = 'isatenju.html';

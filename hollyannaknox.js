@@ -61,7 +61,7 @@ headingOne.textContent = 'Hollyanna Knox';
 const headingTwo = document.createElement('h4');
 headingTwo.classList.add('headingtwo')
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.innerHTML = 'duchess <span class="headingspan">among other things</span>';
+headingTwo.innerHTML = 'duchess, <span class="headingspan">among other things</span>';
 
 
 const bodyTextDiv = document.createElement('div');
