@@ -48,8 +48,8 @@ table {
 }
 
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2016/05/04/14/38/background-1371801_1280.jpg');
-    background-size: 50%;
+    background-image: url('https://img.freepik.com/premium-photo/red-marble-seamless-texture-with-high-resolution-background-design-interior-exterior_664601-11174.jpg');
+    background-size: 30%;
 }
 
 header {
@@ -198,7 +198,7 @@ img.outsidersimg, img.hoverimg {
 h3{
     width: 100%;
     color: white;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 1%;
     font-family: Bebas Neue, sans-serif;
     letter-spacing: 2px;
@@ -228,7 +228,7 @@ h4 {
     height: 10%;
     width: 40%;
     margin-left: 45.5%;
-    margin-top: -2%;
+    margin-top: -1.5%;
 }
 
 h6 {
@@ -241,6 +241,16 @@ h6 {
     width: 40%;
     margin-left: 63%;
     margin-top: -2%;
+}
+
+h4.headingtwo:hover > span {
+    color:white;
+    transition: 1s; 
+}
+
+h6.headingfour:hover > span {
+    color: white;
+    transition: 1s;
 }
 
 p.bodytext, p.bodytext2 {

@@ -54,14 +54,14 @@ divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');
 hoverImgDiv.appendChild(hoverImg)
-hoverImg.src = 'https://iili.io/JCfaZCu.png'
+hoverImg.src = 'https://i.postimg.cc/WbVzvXMp/fg.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Hollyanna Knox';
 const headingTwo = document.createElement('h4');
 headingTwo.classList.add('headingtwo')
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.innerHTML = 'duchess, <span class="headingspan">among other things</span>';
+headingTwo.innerHTML = '<span class="headingspan">duchess... </span>among other things.';
 
 
 const bodyTextDiv = document.createElement('div');

@@ -54,7 +54,7 @@ divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');
 hoverImgDiv.appendChild(hoverImg)
-hoverImg.src = 'https://iili.io/JCfaZCu.png'
+hoverImg.src = 'https://i.postimg.cc/rFYPXYr7/dfdfv.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Geddy Splintwalker';
