@@ -33,8 +33,20 @@ document.querySelector('nav').appendChild(navLink4);
 navLink4.textContent = 'EVERYWHERE';
 navLink4.classList.add('navlinks');
 
+const titleMouseOver = document.querySelector('h1')
+titleMouseOver.addEventListener("mouseover", mouseOver)
+const titleMouseOut = document.querySelector('h1')
+titleMouseOut.addEventListener("mouseout", mouseOut)
 
+function mouseOver() {
+    titleMouseOver.style.textDecorationColor = '#980002'
+    titleMouseOver.style.textDecorationLine = 'line-through'
+}
 
+function mouseOut() {
+    titleMouseOut.style.color = '#62ab37'
+    titleMouseOut.style.textDecorationLine = 'none'
+}
 
 //main div
 const divForSymbolImg = document.createElement('div');
@@ -48,7 +60,7 @@ outsidersImg.classList.add('outsidersimg');
 outsidersImg.src = 'https://i.postimg.cc/ncC34Yx4/New-Pgfdgroject-1.png';
 outsidersImgDiv.appendChild(outsidersImg);
 const hoverImgDiv = document.createElement('div');
-hoverImgDiv.classList.add('hoverimgdiv');
+hoverImgDiv.classList.add('hoverimgdiv', 'fadein');
 divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');

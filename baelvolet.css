@@ -49,7 +49,7 @@ table {
 
 body {
     background-image: url('https://cdn.pixabay.com/photo/2020/01/09/01/00/eyes-4751572_1280.png');
-    background-size: 65%;
+    background-size: 55%;
 }
 
 
@@ -189,6 +189,22 @@ a.navlinks {
 
 img.outsidersimg, img.hoverimg {
     width: 70%;
+}
+
+.fadein {
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .bodyTextDiv {

@@ -52,7 +52,7 @@ const hoverImgDiv = document.createElement('div');
 hoverImgDiv.classList.add('hoverimgdiv');
 divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
-hoverImg.classList.add('hoverimg');
+hoverImg.classList.add('hoverimg', 'fadein');
 hoverImgDiv.appendChild(hoverImg)
 hoverImg.src = 'https://i.postimg.cc/Kc3KD15L/New-325245-1.png'
 const headingOne = document.createElement('h3');

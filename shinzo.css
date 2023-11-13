@@ -184,6 +184,22 @@ img.outsidersimg, img.hoverimg {
     width: 70%;
 }
 
+.fadein {
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .bodyTextDiv {
     display: flex;
     width: 75%;

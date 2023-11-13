@@ -52,7 +52,7 @@ const hoverImgDiv = document.createElement('div');
 hoverImgDiv.classList.add('hoverimgdiv');
 divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
-hoverImg.classList.add('hoverimg');
+hoverImg.classList.add('hoverimg', 'fadein');
 hoverImgDiv.appendChild(hoverImg)
 hoverImg.src = 'https://i.postimg.cc/HLF7t6wX/New-Pgfdgroject-1-3.png'
 const headingOne = document.createElement('h3');
