@@ -426,7 +426,7 @@ a.fainneslink {
 }
 
 h11 {
-    font-size: 2.75rem;
+    font-size: 2.6rem;
     font-family: Cinzel Decorative, sans-serif;
     color: #A9DEF9;
     padding-top: 2%;
@@ -458,7 +458,7 @@ a.shinzoslink {
 
 h12 {
     font-size: 4rem;
-    font-family: Allura, sans-serif;
+    font-family: Leckerli One, sans-serif;
     color: #980002;
     padding-top: 2%;
     text-align: center;
@@ -522,10 +522,11 @@ a.baelslink {
 
 h14 {
     font-size: 3rem;
-    font-family: Staatliches, sans-serif;
+    font-family: Kdam Thmor Pro, sans-serif;
     color: #F095C4;
     padding-top: 2%;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 p.isatenju {
@@ -547,14 +548,14 @@ a.isaslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Staatliches, sans-serif;
+    font-family: Kdam Thmor Pro, sans-serif;
     font-size: 1.25rem;
 }
 
 
 h15 {
-    font-size: 3rem;
-    font-family: Staatliches, sans-serif;
+    font-size: 3.15rem;
+    font-family: Gochi Hand, sans-serif;
     color: #c19a6b;
     padding-top: 2%;
     text-align: center;
@@ -579,8 +580,8 @@ a.geddyslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Staatliches, sans-serif;
-    font-size: 1.25rem;
+    font-family: Gochi Hand, sans-serif;
+    font-size: 1.5rem;
 }
 
 
