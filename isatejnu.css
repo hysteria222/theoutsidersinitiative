@@ -95,7 +95,7 @@ h2 {
 
 
 .outsiders-subtitle:hover > span {
-    color: #670939;
+    color: #F095C4;
     transition: 2s;
     font-size: 2rem;
 }
@@ -148,6 +148,7 @@ a.navlinks {
     display: flex;
     margin: 0 auto;
     letter-spacing: 5px;
+    margin-bottom: -2.5%;
   }
 
 .mainbody {
