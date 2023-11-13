@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2020/09/19/16/31/flowers-5584878_1280.jpg');
+    background-image: url('https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png');
     background-size: 80%;
 }
 
@@ -242,6 +242,16 @@ h6 {
     width: 40%;
     margin-left: 63%;
     margin-top: -2%;
+}
+
+h4.headingtwo:hover > span {
+    color:white;
+    transition: 1s; 
+}
+
+h6.headingfour:hover > span {
+    color: white;
+    transition: 1s;
 }
 
 p.bodytext, p.bodytext2 {

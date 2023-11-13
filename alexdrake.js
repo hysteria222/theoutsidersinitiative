@@ -53,7 +53,7 @@ divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');
 hoverImgDiv.appendChild(hoverImg)
-hoverImg.src = 'https://iili.io/JCfaZCu.png'
+hoverImg.src = 'https://i.postimg.cc/ZqWJ5VzB/New-Pgfdgroject-1-2.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Inside The Mind Of'
