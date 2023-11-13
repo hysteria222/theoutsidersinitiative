@@ -65,7 +65,7 @@ divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');
 hoverImgDiv.appendChild(hoverImg)
-hoverImg.src = 'https://iili.io/JCfaZCu.png'
+hoverImg.src = 'https://i.postimg.cc/HLF7t6wX/New-Pgfdgroject-1-3.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Inside The Outsiders';
