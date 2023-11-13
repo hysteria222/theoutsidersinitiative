@@ -49,8 +49,9 @@ table {
 
 body {
     background-image: url('https://cdn.pixabay.com/photo/2020/01/09/01/00/eyes-4751572_1280.png');
-    background-size: 55%;
+    background-size: 65%;
 }
+
 
 header {
     width: 100%; 
@@ -58,6 +59,7 @@ header {
     display: flex;
     justify-content: center;
     opacity: 95%;
+    margin-top: 1%;
 }
 
 .headerdiv {
@@ -79,7 +81,9 @@ h1 {
     text-align: center;
     padding-top: 3%;
     margin-top: 1%;
+    transform: rotate(2deg);
 }
+
 
 h2 {
     margin-top: -1%;
@@ -206,6 +210,7 @@ h3{
     justify-content: center;
     margin-top: -5%;
     letter-spacing: 7px;
+    transform: rotate(2deg);
 }
 
 h5 {
@@ -230,6 +235,7 @@ h4 {
     width: 40%;
     margin-left: 45.5%;
     margin-top: -2%;
+    margin-bottom: 2%;
 }
 
 h6 {

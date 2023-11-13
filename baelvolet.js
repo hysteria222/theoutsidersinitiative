@@ -54,7 +54,7 @@ divForSymbolImg.appendChild(hoverImgDiv);
 const hoverImg = document.createElement('img');
 hoverImg.classList.add('hoverimg');
 hoverImgDiv.appendChild(hoverImg)
-hoverImg.src = 'https://iili.io/JCfaZCu.png'
+hoverImg.src = 'https://i.postimg.cc/fLQJ96KS/New-Pgfdgroject-1-1.png'
 const headingOne = document.createElement('h3');
 document.querySelector('.mainbody').appendChild(headingOne);
 headingOne.textContent = 'Bael Volet';

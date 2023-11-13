@@ -61,7 +61,7 @@ headingOne.textContent = 'Geddy Splintwalker';
 const headingTwo = document.createElement('h4');
 headingTwo.classList.add('headingtwo')
 document.querySelector('.mainbody').appendChild(headingTwo);
-headingTwo.innerHTML = 'have you ever heard of<span class="headingspan"> the boogity</span>';
+headingTwo.innerHTML = 'have you ever heard<span class="headingspan"> the boogity?</span>';
 
 
 const bodyTextDiv = document.createElement('div');

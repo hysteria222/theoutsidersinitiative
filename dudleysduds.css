@@ -246,7 +246,7 @@ h6 {
 
 h4.headingtwo:hover > span {
     color:#980002;
-    transition: 1s;
+    transition: 1s; 
 }
 
 h6.headingfour:hover > span {
@@ -457,7 +457,7 @@ a.shinzoslink {
 }
 
 h12 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Leckerli One, sans-serif;
     color: #980002;
     padding-top: 2%;
