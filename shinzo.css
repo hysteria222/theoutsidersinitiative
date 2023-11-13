@@ -57,17 +57,17 @@ header {
     background-color: #9EC0E9;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid black;
+    height: 35vh;
 }
 
 .headerdiv {
     width: 100%; 
-    height: 35vh; 
     background-color: #9EC0E9;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin-top: -2%;
-    margin-bottom: 1%;
+    margin-top: -3%;
 }
 
 h1 {
@@ -152,7 +152,7 @@ a.navlinks {
 .mainbody {
     width: 80vw;
     height: 100%;
-    border: solid 2px #A9DEF9;
+    border: solid 2px black;
     margin: 0 auto;
     margin-top: 1%;
     background-color: #9EC0E9;

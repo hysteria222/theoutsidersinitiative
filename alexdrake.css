@@ -58,11 +58,12 @@ header {
     display: flex;
     justify-content: center;
     opacity: 95%;
+    height: 35vh;
+    border-bottom: 2px solid #033806;
 }
 
 .headerdiv {
-    width: 100%; 
-    height: 35vh; 
+    width: 100%;  
     background-color: black;
     display: flex;
     flex-flow: column wrap;
@@ -154,7 +155,7 @@ a.navlinks {
 .mainbody {
     width: 80vw;
     height: 100%;
-    border: solid 2px #62AB37;
+    border: solid 2px #033806;
     margin: 0 auto;
     margin-top: 1%;
     background-color: black;

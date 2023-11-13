@@ -57,11 +57,12 @@ header {
     background-color: black;
     display: flex;
     justify-content: center;
+    height: 35vh; 
+    border-bottom: 2px solid #980002;
 }
 
 .headerdiv {
     width: 100%; 
-    height: 35vh; 
     background-color: black;
     display: flex;
     flex-flow: column wrap;
@@ -184,21 +185,6 @@ img.outsidersimg, img.hoverimg {
     width: 70%;
 }
 
-.fadein {
-    animation-name: fadeIn;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 .bodyTextDiv {
     display: flex;
