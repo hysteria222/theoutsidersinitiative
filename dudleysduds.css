@@ -198,8 +198,8 @@ img.outsidersimg, img.hoverimg {
 .bodyTextDiv {
     display: flex;
     width: 75%;
+    padding-bottom: 2%;
     margin: 0 auto;
-    padding-bottom: 5%;
 }
 
 h3{
@@ -275,7 +275,7 @@ p.bodytext, p.bodytext2 {
     display: flex;
     width: 75%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .characterinfo {
