@@ -49,7 +49,7 @@ table {
 
 body {
     background-image: url('https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png');
-    background-size: 70%;
+    background-size: 50%;
 }
 
 header {
@@ -229,6 +229,7 @@ h4 {
     width: 40%;
     margin-left: 45.5%;
     margin-top: -2%;
+    margin-bottom: 1%;
 }
 
 h6 {
