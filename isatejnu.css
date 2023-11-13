@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://st2.depositphotos.com/1561359/6394/v/950/depositphotos_63947255-stock-illustration-cherry-blossom-seamless-pattern.jpg');
+    background-image: url('https://thumbs.dreamstime.com/b/cherry-blossom-pattern-seamless-vector-background-hand-drawn-illustration-sketch-style-black-transparent-freehand-sakura-184315031.jpg');
     background-size: 50%;
 }
 
@@ -96,7 +96,7 @@ h2 {
 
 
 .outsiders-subtitle:hover > span {
-    color: #980002;
+    color: #F095C4;
     transition: 2s;
     font-size: 2rem;
 }
@@ -229,6 +229,7 @@ h4 {
     width: 40%;
     margin-left: 45.5%;
     margin-top: -2%;
+    margin-bottom: 1%;
 }
 
 h6 {
@@ -241,6 +242,16 @@ h6 {
     width: 40%;
     margin-left: 63%;
     margin-top: -2%;
+}
+
+h4.headingtwo:hover > span {
+    color:white;
+    transition: 1s; 
+}
+
+h6.headingfour:hover > span {
+    color: white;
+    transition: 1s;
 }
 
 p.bodytext, p.bodytext2 {
