@@ -181,14 +181,13 @@ img.outsidersimg, img.hoverimg {
 
 .fadein {
     animation-name: fadeIn;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
     animation-duration: 1s;
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
+    
     }
     100% {
         opacity: 1;
@@ -254,7 +253,7 @@ h6 {
 
 h4.headingtwo:hover > span {
     color:#980002;
-    transition: 1s; 
+    transition: 1s ease; 
 }
 
 h6.headingfour:hover > span {
@@ -368,11 +367,16 @@ span.characterspan {
 }
 
 h9 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: Edu TAS Beginner, sans-serif;
     color: #62AB37;
     padding-top: 2%;
     text-align: center;
+    transition: 0.8s ease;
+}
+
+h9:hover {
+    letter-spacing: 5px;
 }
 
 p.alexdrake {
@@ -609,9 +613,10 @@ h7:hover {
 
 
 
+
 @media only screen and (min-width: 1200px) {
     header {
-        height: 30vh;
+        height: 25vh;
     }
 }
 
