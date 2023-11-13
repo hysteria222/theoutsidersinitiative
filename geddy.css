@@ -59,10 +59,12 @@ header {
     background-color: black;
     display: flex;
     justify-content: center;
+    opacity: 95%;
 }
 
 .headerdiv {
     width: 100%; 
+    opacity: 95%;
     height: 35vh; 
     background-color: black;
     display: flex;
@@ -164,6 +166,7 @@ a.navlinks {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    opacity: 95%;
 }
 
 .symboldiv {
