@@ -48,8 +48,8 @@ table {
 }
 
 body {
-    background-image: url('https://img.freepik.com/premium-photo/red-marble-seamless-texture-with-high-resolution-background-design-interior-exterior_664601-11174.jpg');
-    background-size: 30%;
+    background-image: url('https://st3.depositphotos.com/3999957/16951/v/600/depositphotos_169515320-stock-illustration-black-swirl-seamless-pattern-like.jpg');
+    background-size: 50%;
 }
 
 header {
@@ -57,7 +57,6 @@ header {
     background-color: black;
     display: flex;
     justify-content: center;
-    opacity: 95%;
 }
 
 .headerdiv {
@@ -67,7 +66,6 @@ header {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    opacity: 95%;
     margin-top: -3%;
     margin-bottom: 1%;
 }
@@ -159,7 +157,6 @@ a.navlinks {
     margin: 0 auto;
     margin-top: 1%;
     background-color: black;
-    opacity: 95%;
     margin-top: 3%;
     margin-bottom: 2%;
     padding-top: 2%;
@@ -206,6 +203,7 @@ h3{
     justify-content: center;
     margin-top: -5%;
     letter-spacing: 7px;
+    text-decoration: underline;
 }
 
 h5 {
