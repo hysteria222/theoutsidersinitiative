@@ -212,4 +212,24 @@ const bigironLink = document.createElement('a');
 bigironLink.classList.add('isaslink');
 bigironText.appendChild(bigironLink);
 bigironLink.textContent = 'Read more about Isa Tenju';
-bigiron.href = 'isatenju.html';
+bigironLink.href = 'isatenju.html';
+
+
+//geddy 
+
+const theBoogity = document.createElement('div');
+theBoogity.classList.add('theboogityiv');
+document.querySelector('.characterinfo').appendChild(theBoogity);
+const theBoogityTitle = document.createElement('h15');
+theBoogityTitle.classList.add('theboogity');
+theBoogity.appendChild(theBoogityTitle);
+theBoogityTitle.textContent = 'Geddy Splintwalker';
+const theBoogityText = document.createElement('p');
+theBoogityText.classList.add('geddy');
+theBoogityTitle.appendChild(theBoogityText);
+theBoogityText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis.'
+const theBoogityLink = document.createElement('a');
+theBoogityLink.classList.add('geddyslink');
+theBoogityText.appendChild(theBoogityLink);
+theBoogityLink.textContent = 'Read more about Geddy Splintwalker';
+theBoogityLink.href = 'geddy.html';

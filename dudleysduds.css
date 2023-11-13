@@ -347,7 +347,7 @@ span.characterspan {
     margin-bottom: 5%;
 }
 
-.papercutdiv, .forestgirldiv, .bigirondiv {
+.papercutdiv, .forestgirldiv, .bigirondiv, .theboogity {
     width: 80%;
     height: 100%;
     border: solid 2px white;
@@ -523,7 +523,7 @@ a.baelslink {
 h14 {
     font-size: 3rem;
     font-family: Staatliches, sans-serif;
-    color: #197278;
+    color: #F095C4;
     padding-top: 2%;
     text-align: center;
 }
@@ -541,7 +541,39 @@ p.isatenju {
 }
 
 a.isaslink {
-    color: #197278;
+    color: #F095C4;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2%;
+    font-family: Staatliches, sans-serif;
+    font-size: 1.25rem;
+}
+
+
+h15 {
+    font-size: 3rem;
+    font-family: Staatliches, sans-serif;
+    color: #c19a6b;
+    padding-top: 2%;
+    text-align: center;
+}
+
+p.geddy {
+    color: white;
+    width: 90%;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 2%;
+    font-family: Lexend, sans-serif;
+    letter-spacing: 2px; 
+    margin-bottom: 2%;
+    margin: 0 auto;
+}
+
+a.geddyslink {
+    color: #c19a6b;
     display: block;
     margin: 0 auto;
     text-decoration: none;
