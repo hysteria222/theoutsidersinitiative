@@ -145,7 +145,6 @@ a.navlinks {
   
   nav {
     display: flex;
-    padding-top: .5%;
     margin: 0 auto;
     letter-spacing: 5px;
   }

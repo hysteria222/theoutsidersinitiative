@@ -147,7 +147,6 @@ a.navlinks {
   
   nav {
     display: flex;
-    padding-top: 1%;
     margin: 0 auto;
     letter-spacing: 5px;
   }
@@ -458,7 +457,7 @@ a.shinzoslink {
 
 h12 {
     font-size: 3rem;
-    font-family: Leckerli One, sans-serif;
+    font-family: Satisfy, sans-serif;
     color: #980002;
     padding-top: 2%;
     text-align: center;
@@ -483,14 +482,13 @@ a.hollyslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Unica One, sans-serif;
+    font-family: Bebas Neue, sans-serif;
     font-size: 1.5rem;
-    letter-spacing: -1px;
 }
 
 h13 {
     font-size: 3rem;
-    font-family: Staatliches, sans-serif;
+    font-family: Courgette, sans-serif;
     color: #197278;
     padding-top: 2%;
     text-align: center;
@@ -515,8 +513,8 @@ a.baelslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Staatliches, sans-serif;
-    font-size: 1.25rem;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.65rem;
 }
 
 
