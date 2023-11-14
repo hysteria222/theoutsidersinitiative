@@ -364,7 +364,7 @@ span.characterspan {
 h9 {
     font-size: 4rem;
     font-family: Edu TAS Beginner, sans-serif;
-    color: #62AB37;
+    color: white;
     padding-top: 2%;
     text-align: center;
     transition: 0.8s ease;
@@ -398,9 +398,9 @@ a.alexslink {
 }
 
 h10 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: Caveat, sans-serif;
-    color: #A71515;
+    color: white;
     padding-top: 2%;
     text-align: center;
 }
@@ -431,7 +431,7 @@ a.fainneslink {
 h11 {
     font-size: 2.6rem;
     font-family: Cinzel Decorative, sans-serif;
-    color: #A9DEF9;
+    color: white;
     padding-top: 2%;
     text-align: center;
 }
@@ -460,9 +460,9 @@ a.shinzoslink {
 }
 
 h12 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: Satisfy, sans-serif;
-    color: #980002;
+    color: white;
     padding-top: 2%;
     text-align: center;
 }
@@ -493,7 +493,7 @@ a.hollyslink {
 h13 {
     font-size: 3rem;
     font-family: Courgette, sans-serif;
-    color: #197278;
+    color: white;
     padding-top: 2%;
     text-align: center;
 }
@@ -523,9 +523,9 @@ a.baelslink {
 
 
 h14 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-family: Kdam Thmor Pro, sans-serif;
-    color: #F095C4;
+    color: white;
     padding-top: 2%;
     text-align: center;
     letter-spacing: 2px;
@@ -558,7 +558,7 @@ a.isaslink {
 h15 {
     font-size: 3.15rem;
     font-family: Gochi Hand, sans-serif;
-    color: #c19a6b;
+    color: white;
     padding-top: 2%;
     text-align: center;
 }
