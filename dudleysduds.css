@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://freedesignfile.com/upload/2017/09/Seamless-black-with-white-art-pattern-vector-08.jpg');
+    background-image: url('https://iili.io/JCSA4uj.png');
     background-size: 55%;
 }
 
@@ -608,7 +608,7 @@ h7:hover {
 @media only screen and (min-width: 1400px) {
 
     body {
-        background-size: 30%;
+        background-size: 25%;
     }
     header {
         height: 25vh;
@@ -628,10 +628,24 @@ h7:hover {
         width: 75%;
     }
 
+    .bodyTextDiv {
+        width: 70%;
+    }
+
+    .bodytextDiv2 {
+    width: 70%;
+    }
     .characterinfo {
         width: 75%;
     }
+
+    .characterinfodiv {
+        width: 70%;
+    }
     
+    .leaderdaddydiv, .forestgirldiv, .seawitchdiv, .shadowweirdodiv, .bigirondiv, .papercutdiv, .theboogity {
+        width: 65%;
+    }
 }
 
 
