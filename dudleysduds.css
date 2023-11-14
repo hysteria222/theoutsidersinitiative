@@ -56,7 +56,6 @@ header {
     width: 100%; 
     display: flex;
     justify-content: center;
-    opacity: 98%;
     height: 35vh;
 }
 
@@ -149,7 +148,6 @@ a.navlinks {
     margin: 0 auto;
     margin-top: 1%;
     background-color: black;
-    opacity: 98%;
     margin-bottom: 2%;
     padding-top: 2%;
     display: flex;
@@ -282,7 +280,6 @@ p.bodytext, p.bodytext2 {
     margin: 0 auto;
     margin-top: 1%;
     background-color: black;
-    opacity: 95%;
     margin-top: 2%;
     margin-bottom: 2%;
     padding-top: 2%;
