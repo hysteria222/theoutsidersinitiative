@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://iili.io/JCvuEdJ.png');
+    background-image: url('https://st2.depositphotos.com/3237945/8211/v/600/depositphotos_82115558-stock-illustration-black-and-white-geometric-seamless.jpg');
     background-size: 55%;
 }
 
@@ -66,6 +66,7 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     height: 37vh;
+    margin-top: -3%;
     border-bottom: 2px solid #033806;
 }
 
@@ -332,7 +333,7 @@ h8 {
 @media only screen and (min-width: 1400px) {
     
     body {
-        background-size: 30%;
+        background-size: 40%;
     }
 
     header {
