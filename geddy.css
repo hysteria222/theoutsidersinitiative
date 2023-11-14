@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://i.postimg.cc/Dw5KSbtJ/irtsya-seamless-geometric-pattern-on-paper-texture-art-deco-background-u-l-q1hc4770.jpg');
+    background-image: url('https://media.istockphoto.com/id/1152432179/vector/art-deco-seamless-pattern-in-gold-and-black-colors.jpg?s=612x612&w=0&k=20&c=B8G_wTcnr2CmwrNKpB016Xlc-x3phX3WjDcCy7dnnsA=');
     background-size: 25%;
 }
 
@@ -58,7 +58,6 @@ header {
     width: 100%; 
     display: flex;
     justify-content: center;
-    opacity: 98%;
     height: 35vh;
 }
 
@@ -84,9 +83,14 @@ h1 {
 }
 
 h1:hover {
-    color: black; 
+    transform: scale(-1, 1);
+            color: #c19a6b;
+            -moz-transform: scale(-1, 1);
+            -webkit-transform: scale(-1, 1);
+            -o-transform: scale(-1, 1);
+            -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
 }
-
 
 h2 {
     margin-top: -1%;
@@ -97,18 +101,6 @@ h2 {
     color: white;
 }
 
-
-
-.outsiders-subtitle {
-    margin-left: 35%;
-}
-
-
-.outsiders-subtitle:hover > span {
-    color: #c19a6b;
-    transition: 2s;
-    font-size: 2rem;
-}
 
 a.navlinks {
     font-size: 1.75rem;
@@ -172,7 +164,6 @@ a.navlinks {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    opacity: 95%;
 }
 
 .symboldiv {
@@ -348,10 +339,29 @@ h8 {
 
 
 
-
-
 @media only screen and (min-width: 1400px) {
+    
+    body {
+        background-size: 45%;
+    }
+
     header {
         height: 25vh;
     }
+
+    h2 {
+        margin-right: 20%;
+        margin-bottom: -8%;
+    }
+    
+    .headerdiv {
+        height: 27vh;
+    }
+
+    .mainbody {
+        margin-top: -.25%;
+        width: 75%;
+    }
+
 }
+

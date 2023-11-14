@@ -323,8 +323,29 @@ h8 {
 
 
 
+
+
 @media only screen and (min-width: 1400px) {
+    
+    body {
+        background-size: 40%;
+    }
+
     header {
         height: 25vh;
+    }
+
+    h2 {
+        margin-right: 20%;
+        margin-bottom: -8%;
+    }
+
+    .headerdiv {
+        height: 27vh;
+    }
+
+    .mainbody {
+        margin-top: -.25%;
+        width: 75%;
     }
 }

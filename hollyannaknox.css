@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://st3.depositphotos.com/3999957/16951/v/600/depositphotos_169515320-stock-illustration-black-swirl-seamless-pattern-like.jpg');
+    background-image: url('https://img.freepik.com/premium-vector/chinese-black-red-abstract-seamless-vector-background-indian-floral-element-graphic-ornament-wallpaper-fabric-wrapping-packaging_174639-43773.jpg');
     background-size: 60%;
 }
 
@@ -61,7 +61,7 @@ header {
 
 .headerdiv {
     width: 100%;  
-    background-color: black;
+    background-color: #1d1d1b;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -81,7 +81,7 @@ h1 {
 }
 
 h1:hover {
-    color: black; 
+    color: #1d1d1b; 
 }
 
 h2 {
@@ -160,7 +160,7 @@ a.navlinks {
     border: solid 2px #980002;
     margin: 0 auto;
     margin-top: 1%;
-    background-color: black;
+    background-color: #1d1d1b;
     margin-bottom: 2%;
     padding-top: 2%;
     display: flex;
@@ -334,7 +334,7 @@ h8 {
 @media only screen and (min-width: 1400px) {
 
     body {
-        background-size: 25%;
+        background-size: 30%;
     }
     header {
         height: 25vh;
@@ -366,8 +366,29 @@ h8 {
 
 
 
+
+
 @media only screen and (min-width: 1400px) {
+    
+    body {
+        background-size: 40%;
+    }
+
     header {
         height: 25vh;
+    }
+
+    h2 {
+        margin-right: 20%;
+        margin-bottom: -8%;
+    }
+
+    .headerdiv {
+        height: 27vh;
+    }
+
+    .mainbody {
+        margin-top: -.25%;
+        width: 75%;
     }
 }

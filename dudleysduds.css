@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2020/12/11/13/50/roses-5822915_1280.jpg');
+    background-image: url('https://freedesignfile.com/upload/2017/09/Seamless-black-with-white-art-pattern-vector-08.jpg');
     background-size: 55%;
 }
 
@@ -609,8 +609,17 @@ h7:hover {
 
 
 @media only screen and (min-width: 1400px) {
+
+    body {
+        background-size: 30%;
+    }
     header {
         height: 25vh;
+    }
+
+    h2 {
+        margin-right: 20%;
+        margin-bottom: -8%;
     }
 
     .headerdiv {
@@ -619,6 +628,10 @@ h7:hover {
 
     .mainbody {
         margin-top: -.25%;
+        width: 75%;
+    }
+
+    .characterinfo {
         width: 75%;
     }
     
