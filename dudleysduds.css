@@ -343,10 +343,13 @@ span.characterspan {
     border: solid 2px white;
     justify-content: center;
     margin: 0 auto;
+    opacity: 90%;
+    padding: 1%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     margin-bottom: 5%;
+    border-radius: 25px;
 }
 
 .papercutdiv, .forestgirldiv, .bigirondiv, .theboogity {
@@ -355,10 +358,13 @@ span.characterspan {
     border: solid 2px white;
     justify-content: center;
     margin: 0 auto;
+    opacity: 90%;
+    padding: 1%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     margin-bottom: 5%;
+    border-radius: 25px;
 }
 
 h9 {
@@ -370,10 +376,10 @@ h9 {
     transition: 0.8s ease;
 }
 
-p.alexdrake {
+p.alexdrake, p.fainneuron, p.hollyannaknox, p.geddy, p.shinzokatetsu, p.baelvolet, p.isatenju{
     color: white;
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-align: justify;
     padding: 2%;
     font-family: Lexend, sans-serif;
@@ -393,28 +399,16 @@ a.alexslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Edu TAS Beginner, sans-serif;
+    font-family: Bebas Neue, sans-serif;
     font-size: 1.5rem;
 }
 
 h10 {
     font-size: 4rem;
-    font-family: Caveat, sans-serif;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
-}
-
-p.fainneuron {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.fainneslink {
@@ -424,28 +418,16 @@ a.fainneslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Caveat, sans-serif;
-    font-size: 1.75rem;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.5rem;
 }
 
 h11 {
-    font-size: 2.6rem;
-    font-family: Cinzel Decorative, sans-serif;
+    font-size: 4rem;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
-}
-
-p.shinzokatetsu {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.shinzoslink {
@@ -455,28 +437,16 @@ a.shinzoslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Cinzel Decorative, sans-serif;
-    font-size: 1rem;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.5rem;
 }
 
 h12 {
-    font-size: 3.5rem;
-    font-family: Satisfy, sans-serif;
+    font-size: 4rem;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
-}
-
-p.hollyannaknox {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.hollyslink {
@@ -491,23 +461,11 @@ a.hollyslink {
 }
 
 h13 {
-    font-size: 3rem;
-    font-family: Courgette, sans-serif;
+    font-size: 4rem;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
-}
-
-p.baelvolet {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.baelslink {
@@ -518,29 +476,16 @@ a.baelslink {
     text-align: center;
     margin-top: 2%;
     font-family: Bebas Neue, sans-serif;
-    font-size: 1.65rem;
+    font-size: 1.5rem;
 }
 
-
 h14 {
-    font-size: 2.75rem;
-    font-family: Kdam Thmor Pro, sans-serif;
+    font-size: 4rem;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
     letter-spacing: 2px;
-}
-
-p.isatenju {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.isaslink {
@@ -550,29 +495,16 @@ a.isaslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Kdam Thmor Pro, sans-serif;
-    font-size: 1.25rem;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.5rem;
 }
 
-
 h15 {
-    font-size: 3.15rem;
-    font-family: Gochi Hand, sans-serif;
+    font-size: 4rem;
+    font-family: Edu TAS Beginner, sans-serif;
     color: white;
     padding-top: 2%;
     text-align: center;
-}
-
-p.geddy {
-    color: white;
-    width: 90%;
-    font-size: 1rem;
-    text-align: justify;
-    padding: 2%;
-    font-family: Lexend, sans-serif;
-    letter-spacing: 2px; 
-    margin-bottom: 2%;
-    margin: 0 auto;
 }
 
 a.geddyslink {
@@ -582,7 +514,7 @@ a.geddyslink {
     text-decoration: none;
     text-align: center;
     margin-top: 2%;
-    font-family: Gochi Hand, sans-serif;
+    font-family: Bebas Neue, sans-serif;
     font-size: 1.5rem;
 }
 
